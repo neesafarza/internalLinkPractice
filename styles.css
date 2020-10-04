@@ -1,0 +1,72 @@
+
+.app-header {
+
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  background-color: black;
+  color: white;
+}
+
+.app-header header {
+  text-align: center;
+}
+
+.app-header nav {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+}
+
+.app-header ul {
+  display: flex;
+  width: 100%;
+  justify-items: center;
+}
+
+.app-header li {
+  width: 100%;
+}
+
+.section-container {
+  overflow: scroll;
+  scroll-behavior: smooth;
+  height: 85vh;
+
+}
+
+.section-container section {
+  padding: 60px;
+  height: 80vh;
+  text-align: center;
+  background: grey;
+  color: white;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #6b705c;
+}
