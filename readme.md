@@ -1,6 +1,6 @@
-# Telescopic Practical Task
+# Internal Link Practice
 
-This folder contains all required files to run my submission for the practical task assigned. I hope you enjoy reviewing this as much as I enjoyed making it!
+A single page website that changes url when user click on different section. 
 
 ## Dependencies
 
@@ -16,4 +16,4 @@ This folder contains all required files to run my submission for the practical t
 ## Credits
 
 - Jquery library + documentation
-- Telescop for the project idea
+- Telescopic for the project idea
